@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="UKR">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна</title>
+    <link rel="stylesheet" href="style.css" id="dark-theme">
+    <link rel="stylesheet" href="light-theme.css" id="light-theme" disabled>
+    <script src="script.js"></script>
+</head>
+<body class="body">
+<header class="header">
+    <div class="logoName">
+    <img class="logo" src="img/logo.svg" alt="logo">
+    <h2 id="Name" >Камша Дмитро<br>Олександрович</h2>
+    </div>
+    <nav class="nav">
+        <button class="headerButt" id="headerButtAboutus" onclick="location.href='page2.html'">Про нас</button>
+        <button class="headerButt" id="headerButtContact" onclick="location.href='page3.html'">Контакти</button>
+    </nav>
+        <div class="menutoggle">
+            <button class="btn_menu" onclick="toggleMenu()">
+                <svg class="svgmenu" width="50px" height="50px" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="background-color: transparent;">
+                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+</header>
+<main class="main">
+    <div class="menu">
+        <button class="menulink" onclick="toggleTheme()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25">
+                <path d="M12,0C5.38,0,0,5.38,0,12s5.38,12,12,12,12-5.38,12-12S18.62,0,12,0Zm0,21V3c4.96,0,9,4.04,9,9s-4.04,9-9,9Z"/></svg>
+            <span id="menulinkTheme">Світла</span></button>
+        <button class="menulink"  onclick="toggleLanguage()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25">
+            <path d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm8.647,7H17.426a19.676,19.676,0,0,0-2.821-4.644A10.031,10.031,0,0,1,20.647,7ZM16.5,12a10.211,10.211,0,0,1-.476,3H7.976A10.211,10.211,0,0,1,7.5,12a10.211,10.211,0,0,1,.476-3h8.048A10.211,10.211,0,0,1,16.5,12ZM8.778,17h6.444A19.614,19.614,0,0,1,12,21.588,19.57,19.57,0,0,1,8.778,17Zm0-10A19.614,19.614,0,0,1,12,2.412,19.57,19.57,0,0,1,15.222,7ZM9.4,2.356A19.676,19.676,0,0,0,6.574,7H3.353A10.031,10.031,0,0,1,9.4,2.356ZM2.461,9H5.9a12.016,12.016,0,0,0-.4,3,12.016,12.016,0,0,0,.4,3H2.461a9.992,9.992,0,0,1,0-6Zm.892,8H6.574A19.676,19.676,0,0,0,9.4,21.644,10.031,10.031,0,0,1,3.353,17Zm11.252,4.644A19.676,19.676,0,0,0,17.426,17h3.221A10.031,10.031,0,0,1,14.605,21.644ZM21.539,15H18.1a12.016,12.016,0,0,0,.4-3,12.016,12.016,0,0,0-.4-3h3.437a9.992,9.992,0,0,1,0,6Z"/></svg>
+            <span id="menulinkLang">УКР</span></button>
+    </div>
+
+    <div class="MainDiv page1" id="page1">
+        <div class="text" id="kamsha">
+        Мене звати Камша Дмитро Олександрович, і я народився 7<br>
+        жовтня 2003 року в селі Скородистик Золотоніського району<br>
+        Черкаської області. Моя освітня історія почалася з Ірклієвського<br>
+        дитсадка, де я відвідував 1 клас. Після цього я перейшов до<br>
+        Скородистицької школи Життєтворчості, де здобував освіту до<br>
+        9 класу. Вже на початкових етапах мені було цікаве<br>
+        Програмування, тому я вирішив продовжити свою освіту в<br>
+        Черкаському державному бізнес коледжі на спеціальності<br>
+        "Інженерія програмного забезпечення".
+        <br><br>
+        Наразі я навчаюсь на другому курсі бакалаврату. Мої інтереси<br>
+        та хобі різноманітні, але найбільшим захопленням для мене є<br>
+        гра в онлайн ігри, зокрема Counter-Strike, PUBG, Rust тощо. Серед<br>
+        них найбільше я віддавав перевагу Counter-Strike, де навіть мав<br>
+        можливість створити власну команду FIVE DEATHS та брати<br>
+        участь в турнірах. Паралельно з цим я вміло використовував<br>
+        свої художні здібності, які виявилися в малюванні логотипів.
+        <br><br>
+        Моя основна мета - стати програмістом високого рівня в сфері<br>
+        веб-дизайну або веб та андроїд розробки. Мене також цікавить<br>
+        можливість працювати як Python розробник, але це залежить<br>
+        від моїх навичок та знань. Я вірю, що з наполегливістю та<br>
+        старанням я досягну своїх мрій та реалізую свій потенціал у<br>
+        світі програмування.
+    </div>
+
+    <div class="screen">
+
+    <div class="screen1">
+        <img class="img1" src="img/img1.jpeg" alt="img1"></div>
+            <div class="screen2">
+                <div class="imgcontainer">
+                    <img src="img/img2.jpeg" alt="img2">
+                </div>
+            </div>
+
+        <div class="screen3">
+            <img class="img3" src="img/img3.jpeg" alt="img3">
+            <img class="img4" src="img/img4.jpeg" alt="img4">
+        </div>
+    </div>
+    </div>
+
+
+</main>
+
+<footer class="footer">
+
+</footer>
+</body>
+</html>
+
